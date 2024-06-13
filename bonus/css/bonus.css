@@ -20,3 +20,10 @@ body {
     background-color: var(--pink);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    height: 100vh;
+}
