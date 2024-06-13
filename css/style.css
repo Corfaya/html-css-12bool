@@ -1,12 +1,29 @@
+:root {
+    --sky-blue: #006CFA;
+    --malachite: #00E165;
+}
+
 .content {
-    background-color: rgb(101, 90, 255);
+    background-color: var(--sky-blue);
     border: 1px solid #fff;
     height: 50px;
 }
 
 .inner-content {
-    background-color: thistle;
+    background-color: var(--malachite);
     border: 1px dashed #000;
+    color: #fff;
+    font-size: 10px;
     height: 50px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-skyblue {
+    background-color: var(--sky-blue);
+}
+
+.p-15 {
+    padding: 15px;
 }
