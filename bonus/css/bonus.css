@@ -1,0 +1,22 @@
+:root {
+    --erin-green: #17FF36;
+    --pink: #FF8AF5;
+}
+
+body {
+    background-color: #dacad8;
+}
+
+.content {
+    background-color: black;
+    min-height: 30px;
+}
+
+.bg-erin {
+    background-color: var(--erin-green);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
