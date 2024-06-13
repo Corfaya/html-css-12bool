@@ -1,0 +1,12 @@
+.content {
+    background-color: rgb(101, 90, 255);
+    border: 1px solid #fff;
+    height: 50px;
+}
+
+.inner-content {
+    background-color: thistle;
+    border: 1px dashed #000;
+    height: 50px;
+    width: 100%;
+}
