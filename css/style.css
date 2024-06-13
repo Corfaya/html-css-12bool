@@ -3,17 +3,23 @@
     --malachite: #00E165;
 }
 
+body {
+    color: #fff;
+}
+
 .content {
     background-color: var(--sky-blue);
     border: 1px solid #fff;
-    height: 50px;
+    height: 50px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner-content {
     background-color: var(--malachite);
     border: 1px dashed #000;
-    color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -24,6 +30,15 @@
     background-color: var(--sky-blue);
 }
 
+h2 {
+    margin-bottom: 5px;
+    color: #000;
+}
+
 .p-15 {
     padding: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
 }
